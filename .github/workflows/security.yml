@@ -58,7 +58,7 @@ jobs:
       - name: Checkov
         uses: bridgecrewio/checkov-action@master
         with:
-          directory: .
+          directory: azure-session2
           framework: terraform
           quiet: true
           soft_fail: false
